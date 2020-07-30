@@ -15,6 +15,10 @@ There is only one command **/tt** all the subcommands are
 - /tt delete # Delete a tree
 - /tt undo # Undo a tree placement
 - /tt help # Help command
+The default tree parameters are these:
+- /tt create frac 30 30 50 3 10 10 25 true OAK_WOOD OAK_LEAVES 1
+- /tt create fractal <Width> <Height> <BranchDensity> <BranchMinLength> <BranchMaxLength> <StemLength> <GrowItterations> <LogRotate> <BranchMaterial> <LeafMaterial  <LeafPerBranch>
+If you want to test new arguments i would suggest not changing BranchMinLength and BranchMaxLength as they can easily be changed to an invalid value. If your tree is too small, try adjusting the GrowItterations value to a higher number.
 
 ### Permissions
 - treegenerator.tool # /tt command

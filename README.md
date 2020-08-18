@@ -18,7 +18,7 @@ There is only one command **/tt** all the subcommands are
 The default tree parameters are these:
 - /tt create frac 30 30 50 3 10 10 25 true OAK_WOOD OAK_LEAVES 1 1 # Default command
 
-/tt create fractal Width Height BranchDensity BranchMinLength BranchMaxLength StemLength GrowItterations LogRotate BranchMaterial LeafMaterial LeafPerBranch BranchThickness
+/tt create fractal Width Height BranchDensity BranchMinLength BranchMaxLength StemLength GrowItterations LogRotate [BranchMaterial] [LeafMaterial] LeafPerBranch BranchThickness
 
 ### Explanation
 If you want to test new arguments i would suggest not changing BranchMinLength and BranchMaxLength as they can easily be changed to an invalid value. If your tree is too small, try adjusting the GrowItterations value to a higher number. For bigger trees you can change the BranchThickness to change the thickness of the stem, for smaller trees changing the branchthickness to a higher number can make the tree look weird.
